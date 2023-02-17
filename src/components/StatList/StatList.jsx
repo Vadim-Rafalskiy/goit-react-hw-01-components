@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import css from './StatList.module.css';
 
-const ref = { item: document.querySelector('#item') };
-
 const bgColorGen = () => {
   const randomColor = Math.floor(Math.random() * 16777215).toString(16);
   return randomColor;
@@ -31,7 +29,7 @@ StatList.defaultProps = {
 StatList.propTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
+      id: PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,
     })
