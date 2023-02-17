@@ -1,0 +1,41 @@
+.notActive {
+  display: block;
+
+  width: 15px;
+  height: 15px;
+
+  margin-right: 20px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.active {
+  composes: notActive;
+  background-color: rgb(57, 183, 67);
+}
+
+.item {
+  display: inline-flex;
+  align-items: center;
+
+  width: 350px;
+
+  border-radius: 15px;
+
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+}
+
+.avatar {
+  padding: 5px;
+  border-radius: 10%;
+  margin-right: 20px;
+  background-color: rgb(255, 242, 95);
+}
+
+.name {
+  font-size: 30px;
+}

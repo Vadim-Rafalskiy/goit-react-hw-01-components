@@ -1,0 +1,19 @@
+.statistics {
+  margin: 15px auto;
+  width: 250px;
+  border: 2px solid rgb(241, 147, 147);
+  text-align: center;
+}
+
+.title {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 2px solid rgb(241, 147, 147);
+}
+
+.statList {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

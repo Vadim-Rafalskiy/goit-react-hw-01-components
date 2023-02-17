@@ -1,0 +1,22 @@
+.transactioHistory {
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  margin: 50px;
+  border-collapse: separate;
+  border-spacing: 5px;
+  background: #ece9e0;
+  color: #656665;
+  border: 16px solid #ece9e0;
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 10px #a3a3a3, -5px -5px 10px #ffffff;
+}
+th {
+  font-size: 18px;
+  padding: 10px;
+}
+td {
+  text-align: center;
+  background: #f5d7bf;
+  padding: 10px;
+  min-width: 180px;
+}
